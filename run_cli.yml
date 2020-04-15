@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+    - name: run cli key fetch
+      command: appliance_console_cli --fetch-key=10.8.197.236
